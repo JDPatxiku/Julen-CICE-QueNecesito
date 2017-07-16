@@ -130,11 +130,9 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     private void updateNumberData(FirebaseDatabase db){
-        DatabaseReference ref = db.getReference("numbers");
+        DatabaseReference ref = db.getReference("numbers").child(txtNumber.getText().toString());
         String userUID = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        Map<String, Object> numbers = new HashMap<String, Object>();
-        numbers.put(txtNumber.getText().toString(),new PhoneNumber(userUID));
-        ref.updateChildren(numbers);
+        ref.setValue(userUID);
     }
 
     private boolean checkIfNameIsEmpty(){
