@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "822197616411",
+    "firebase_url": "https://grocery-a6978.firebaseio.com",
+    "project_id": "grocery-a6978",
+    "storage_bucket": "grocery-a6978.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822197616411:android:db4f731744851864",
+        "android_client_info": {
+          "package_name": "com.julendieguez.quenecesito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822197616411-dcd38enbbpetri9ou36f438p9ag9krgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW5Sg7NMUCZCxRjYLuzKOxXgpqhxyqoIo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:itemTextAppearance">@style/AppTheme.itemStyle</item>
+        <item name="drawerArrowStyle">@style/AppTheme.drawerIcon</item>
+        <item name="colorControlNormal">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="AppTheme.drawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/colorPrimaryText</item>
+    </style>
+    <style name="AppTheme.itemStyle">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
+    <style name="AppTheme.formEditText" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorSecondaryText</item>
+        <item name="android:textSize">20sp</item>
+        <item name="colorAccent">@color/colorSecondaryText</item>
+        <item name="colorControlNormal">@color/colorPrimaryText</item>
+        <item name="colorControlActivated">@color/colorPrimaryText</item>
+        <item name="android:textColorHighlight">@color/colorSecondaryText</item>
+        <item name="android:textColorLink">@color/colorSecondaryText</item>
+        <item name="android:textColorPrimary">@color/colorSecondaryText</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="AppTheme.formTextSecondary">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">@color/colorSecondaryTextLight</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorSecondaryText</item>
+        <item name="android:textColorPrimary">@color/colorSecondaryText</item>
+        <item name="android:background">@color/colorSecondary</item>
+    </style>
+
+    <style name="AppTheme.lists" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@color/colorPrimaryText</item>
+        <item name="android:listSelector">@color/colorPrimaryBackgroundDark</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="AppTheme.groupRowHeader">
+        <item name="android:textColorPrimary">@color/colorSecondaryText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppTheme.groupRowBody">
+        <item name="android:textColorPrimary">@color/colorSecondaryTextLight</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="AppTheme.editUserText">
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textSize">20dip</item>
+    </style>
+</resources>

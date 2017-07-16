@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+            android:id="@+id/groupHamburger">
+        <item
+            android:id="@+id/action_createNew"
+            android:icon="@drawable/ic_add"
+            android:title="@string/menuCreateNew" />
+        <item
+            android:title="@string/menuAccount">
+            <menu>
+                <item
+                    android:id="@+id/action_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="@string/menuEditAccount"/>
+                <item
+                    android:id="@+id/action_signOut"
+                    android:icon="@drawable/ic_exit"
+                    android:title="@string/menuDisconnect"/>
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/groupItems"
+        android:visible="false">
+        <item
+            android:id="@+id/action_addUser"
+            android:title="@string/menuAddUser"
+            />
+    </group>
+</menu>

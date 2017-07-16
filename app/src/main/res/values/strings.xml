@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Qué Necesito</string>
+    <!--Log in Activity-->
+    <string name="logInText">Iniciar sesión</string>
+    <string name="logInEmail">Email</string>
+    <string name="logInPassword">Contraseña</string>
+    <string name="logInNoAccountYet">¿No tienes cuenta? Crear una.</string>
+    <string name="logInFieldMissingError">Te has olvidado de introducir el email y/o contraseña</string>
+    <string name="logInError">Email y/o contraseña incorrectos</string>
+    <string name="authenticating">Iniciando sesión...</string>
+    <!--Sign up Activity-->
+    <string name="signUpText">Crear cuenta</string>
+    <string name="signUpName">Nombre</string>
+    <string name="signUpEmail">Email</string>
+    <string name="signUpPassword">Contraseña</string>
+    <string name="signUpRepeatPassword">Repetir contraseña</string>
+    <string name="signUpNumber">Teléfono</string>
+    <string name="signUpAccountAlready">¿Tienes una cuenta? Inicia sesión.</string>
+    <string name="signUpProcess">Creando cuenta...</string>
+    <string name="signUpEmailError">El email introducido no es válido</string>
+    <string name="signUpPasswordEmptyError">Ha olvidado introducir una contraseña</string>
+    <string name="signUpNameError">Ha olvidado introducir un nombre</string>
+    <string name="signUpPasswordMatchError">Las contraseñas no concuerdan</string>
+    <string name="signUpPasswordLengthError">La contraseña ha de tener al menos 6 caracteres</string>
+    <string name="signUpError">Error creando la cuenta, intentelo de nuevo</string>
+    <string name="signUpNumberNotAchieved">No se pudo encontrar un número de telefono</string>
+    <string name="signUpNumberExistsError">El número de teléfono introducido está en uso por otra cuenta</string>
+    <!--Create new List Fragment-->
+    <string name="createListName">Nombre</string>
+    <string name="createListDescription">Descripción</string>
+    <string name="createListButton">Crear nueva lista</string>
+    <string name="createListDialog">Creando lista...</string>
+    <string name="createListNameLengthError">El nombre de la lista no puede estar vacio</string>
+    <string name="createListDescriptionLengthError">La descripción de la lista no puede estar vacia</string>
+    <!--Edit Account Fragment-->
+    <string name="editAccountBtn">Guardar cambios</string>
+    <string name="editAccountName">Nombre:</string>
+    <!--Hamburger Menu-->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="menuCreateNew">Crear nueva lista</string>
+    <string name="menuAccount">Cuenta</string>
+    <string name="menuEditAccount">Editar cuenta</string>
+    <string name="menuDisconnect">Desconectar</string>
+    <!--Normal Menu-->
+    <string name="menuAddUser">Añadir usuario</string>
+    <!--Delete Group Dialog-->
+    <string name="deleteGroupDialogBtnOk">Sí</string>
+    <string name="deleteGroupDialogBtnCancel">No</string>
+    <string name="deleteGroupDialogMsg">Está a punto de borrar la lista. \n ¿Está seguro?</string>
+    <!--Item list Fragment-->
+    <string name="itemListName">Producto:</string>
+    <string name="itemListBrand">Marca:</string>
+    <!--Create Item Fragment-->
+    <string name="createItem">Crear producto</string>
+    <string name="createItemName">Nombre</string>
+    <string name="createItemBrand">Marca</string>
+    <string name="createItemPrice">Precio</string>
+    <string name="createItemQuantity">Cantidad: </string>
+    <string name="createItemButton">Crear producto</string>
+    <string name="createItenNoNameError">Ha olvidado introducir un nombre</string>
+    <!--Add User Dialog-->
+    <string name="addUserDialogMsg">¿Quiere compartir la lista con este usuario?</string>
+    <string name="addUserDialogBtnOk">Sí</string>
+    <string name="addUserDialogBtnCancel">No</string>
+
+</resources>

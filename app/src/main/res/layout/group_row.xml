@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="2.5dp">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/groupNameBackground"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="right"
+        android:layout_margin="3dp"
+        android:background="@drawable/circle_shape">
+        <TextView
+            android:id="@+id/groupNameLetter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rowHeader"
+            android:theme="@style/AppTheme.groupRowHeader"
+            android:text="kektus"/>
+        <TextView
+            android:paddingTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rowBody"
+            android:theme="@style/AppTheme.groupRowBody"
+            android:text="kektus"/>
+    </LinearLayout>
+</LinearLayout>

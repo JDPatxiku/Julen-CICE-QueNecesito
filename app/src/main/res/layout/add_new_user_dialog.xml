@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/addUserDialogMsg"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="25dp">
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@color/colorSecondary"
+            android:clickable="true"
+            android:text="@string/deleteGroupDialogBtnOk"
+            android:textColor="@color/colorSecondaryText"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorSecondary"
+            android:clickable="true"
+            android:text="@string/deleteGroupDialogBtnCancel"
+            android:textColor="@color/colorSecondaryText" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingTop="2.5dp"
+    android:weightSum="7">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:weightSum="3">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/txtName"
+            android:theme="@style/AppTheme.groupRowHeader"
+            android:text=""/>
+        <LinearLayout
+            android:weightSum="5"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtBrand"
+                android:theme="@style/AppTheme.groupRowBody"
+                android:text=""/>
+            <TextView
+                android:layout_weight="4"
+                android:paddingTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPrice"
+                android:theme="@style/AppTheme.groupRowBody"
+                android:text="kektus"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
